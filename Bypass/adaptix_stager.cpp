@@ -1,4 +1,3 @@
-cat > simple_stager.cpp << 'EOF'
 #include <windows.h>
 #include <wininet.h>
 #include <cstdio>
