@@ -5,9 +5,9 @@
 
 int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmd, int nShow) {
     
-    const char* ip = "192.168.1.6";
-    const char* port = "8443";
-    const char* file = "agent.x64.bin";
+    const char* ip = "";
+    const char* port = "";
+    const char* file = "";
     
     char url[512];
     snprintf(url, sizeof(url), "http://%s:%s/%s", ip, port, file);
